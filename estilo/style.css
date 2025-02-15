@@ -18,7 +18,7 @@ body {
 .link-topo {
     background: #00639c;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: .5rem;
 }
@@ -76,4 +76,105 @@ body {
     background: #00639c;
     width: 100%;
     padding: 1rem;
+}
+
+#inicio {
+    position: relative;
+    top: -1.3rem;
+    left: 0;
+    background: white;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+#inicio h1 {
+    font-size: 1.3rem;
+    color: #00639c;
+}
+
+#inicio i {
+    color: #313131;
+}
+
+#inicio img {
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: .5rem;
+    margin: .5rem auto .5rem auto;
+}
+
+#inicio p {
+    text-align: center;
+    color: #313131;
+    margin-bottom: .3rem;
+}
+
+#inicio .img-noticia {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#inicio .img-noticia img {
+    width: 8rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #00639c;
+    padding: .5rem;
+}
+
+.institucional {
+    font-size: .8rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+}
+
+.institucional i {
+    font-size: .6rem;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    font-size: .8rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+}
+
+.contatos i {
+    font-size: .6rem;
+    margin-bottom: .2rem;
+}
+
+.endereco {
+    font-size: .8rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+}
+
+.endereco i {
+    font-size: .6rem;
+}
+
+.autor {
+    background: #0073b6;
+    color: white;
+    font-size: .5rem;
+    text-align: center;
+}
+
+/* BREAKPOINTS */
+
+@media screen and (min-width: 600px) and (max-width: 760px) {
+    .header {
+        background: yellowgreen;
+    }
 }
