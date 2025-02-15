@@ -29,8 +29,9 @@ body {
     font-weight: 700;
 }
 
-.link-topo a {
-    font-size: .8rem;
+
+.link-topo a i {
+    font-size: .7rem;
     font-weight: 500;
     color: white;
     margin-right: 1rem;
@@ -186,6 +187,14 @@ footer {
         background: yellowgreen;
     } */
 
+    .link-topo p {
+        font-size: .8rem;
+    }
+
+    .link-topo a i {
+        font-size: .8rem;
+    }
+
     #inicio h1 {
         font-size: 1.4rem;
     }
@@ -221,8 +230,16 @@ footer {
         background: red;
     } */
 
+    .link-topo p {
+        font-size: .8rem;
+    }
+
+    .link-topo a i {
+        font-size: .8rem;
+    }
+
     #inicio h1 {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     #inicio i {
@@ -290,6 +307,14 @@ footer {
     /* .link-topo {
         background: black;
     } */
+
+    .link-topo p {
+        font-size: .8rem;
+    }
+
+    .link-topo a i {
+        font-size: .8rem;
+    }
 
     #inicio h1 {
         font-size: 1.9rem;
@@ -361,6 +386,14 @@ footer {
         background: blue;
     } */
 
+    .link-topo p {
+        font-size: .8rem;
+    }
+
+    .link-topo a i {
+        font-size: .8rem;
+    }
+
     #inicio h1 {
         font-size: 2rem;
     }
@@ -381,8 +414,8 @@ footer {
 
     #inicio .img-noticia {
         display: grid;
-        grid-template-columns: auto auto auto;
-        width: 50%;
+        grid-template-columns: auto auto auto auto;
+        width: 60%;
         margin: auto;
     }
 
@@ -398,10 +431,13 @@ footer {
 
     .institucional {
         font-size: 1rem;
+        display: flex;
+        flex-direction: column;
     }
 
     .institucional i {
         font-size: .8rem;
+        margin-top: .7rem;
     }
 
     .contatos {
@@ -415,10 +451,13 @@ footer {
 
     .endereco {
         font-size: 1rem;
+        display: flex;
+        flex-direction: column;
     }
 
     .endereco i {
         font-size: .8rem;
+        margin-top: .7rem;
     }
 
     .autor {
