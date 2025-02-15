@@ -15,12 +15,18 @@ body {
     font-size: 62.2%;
 }
 
+
 .link-topo {
     background: #00639c;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: .5rem;
+}
+
+.link-topo p {
+    color: white;
+    font-weight: 700;
 }
 
 .link-topo a {
@@ -109,14 +115,16 @@ body {
 }
 
 #inicio p {
-    text-align: center;
-    color: #313131;
-    margin-bottom: .3rem;
+    text-align: justify;
+    width: 80%;
+    margin: .8rem auto 0 auto;
 }
 
 #inicio .img-noticia {
     display: grid;
     grid-template-columns: auto auto;
+    width: 90%;
+    margin: auto;
 }
 
 #inicio .img-noticia img {
@@ -174,7 +182,246 @@ footer {
 /* BREAKPOINTS */
 
 @media screen and (min-width: 600px) and (max-width: 760px) {
-    .header {
+    /* .link-topo {
         background: yellowgreen;
+    } */
+
+    #inicio h1 {
+        font-size: 1.4rem;
+    }
+
+    #inicio i {
+        font-size: .7rem;
+    }
+
+    #inicio img {
+        width: 15rem;
+    }
+
+    #inicio p {
+        font-size: .8rem;
+        width: 75%;
+        margin: .8rem auto 0 auto;
+    }
+
+    #inicio .img-noticia {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 90%;
+        margin: auto;
+    }
+
+    #inicio .img-noticia img {
+        width: 9rem;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 920px) {
+    /* .link-topo {
+        background: red;
+    } */
+
+    #inicio h1 {
+        font-size: 1.7rem;
+    }
+
+    #inicio i {
+        font-size: .8rem;
+    }
+
+    #inicio img {
+        width: 18rem;
+    }
+
+    #inicio p {
+        font-size: .9rem;
+        width: 70%;
+        margin: .8rem auto 0 auto;
+    }
+
+    #inicio .img-noticia {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 80%;
+        margin: auto;
+    }
+
+    #inicio .img-noticia img {
+        width: 10rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 0;
+    }
+
+    .institucional {
+        font-size: 1rem;
+    }
+
+    .institucional i {
+        font-size: .7rem;
+    }
+
+    .contatos {
+        font-size: 1rem;
+    }
+
+    .contatos i {
+        margin-top: .7rem;
+        font-size: .7rem;
+    }
+
+    .endereco {
+        font-size: 1rem;
+    }
+
+    .endereco i {
+        font-size: .6rem;
+    }
+
+    .autor {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (min-width: 920px) and (max-width: 1200px) {
+    /* .link-topo {
+        background: black;
+    } */
+
+    #inicio h1 {
+        font-size: 1.9rem;
+    }
+
+    #inicio i {
+        font-size: .8rem;
+    }
+
+    #inicio img {
+        width: 22rem;
+    }
+
+    #inicio p {
+        font-size: .9rem;
+        width: 70%;
+        margin: .8rem auto 0 auto;
+    }
+
+    #inicio .img-noticia {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 85%;
+        margin: auto;
+    }
+
+    #inicio .img-noticia img {
+        width: 10rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 0;
+    }
+
+    .institucional {
+        font-size: 1rem;
+    }
+
+    .institucional i {
+        font-size: .8rem;
+    }
+
+    .contatos {
+        font-size: 1rem;
+    }
+
+    .contatos i {
+        margin-top: .7rem;
+        font-size: .8rem;
+    }
+
+    .endereco {
+        font-size: 1rem;
+    }
+
+    .endereco i {
+        font-size: .7rem;
+    }
+
+    .autor {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* .link-topo {
+        background: blue;
+    } */
+
+    #inicio h1 {
+        font-size: 2rem;
+    }
+
+    #inicio i {
+        font-size: .8rem;
+    }
+
+    #inicio img {
+        width: 25rem;
+    }
+
+    #inicio p {
+        font-size: .9rem;
+        width: 60%;
+        margin: .8rem auto 0 auto;
+    }
+
+    #inicio .img-noticia {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 50%;
+        margin: auto;
+    }
+
+    #inicio .img-noticia img {
+        width: 12rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 0;
+    }
+
+    .institucional {
+        font-size: 1rem;
+    }
+
+    .institucional i {
+        font-size: .8rem;
+    }
+
+    .contatos {
+        font-size: 1rem;
+    }
+
+    .contatos i {
+        margin-top: .7rem;
+        font-size: .8rem;
+    }
+
+    .endereco {
+        font-size: 1rem;
+    }
+
+    .endereco i {
+        font-size: .8rem;
+    }
+
+    .autor {
+        font-size: .7rem;
     }
 }
