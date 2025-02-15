@@ -398,6 +398,8 @@ footer {
 
     #inicio h1 {
         font-size: 2rem;
+        width: 80%;
+        margin: auto;
     }
 
     #inicio i {
